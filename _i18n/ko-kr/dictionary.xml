@@ -1191,7 +1191,6 @@
   <block id="af7c4c7bd30238dcb53e639cf7a50996" category="cell">리소스를 생성한 사용자 ID의 UUIDv4 식별자가 포함된 JSON 문자열입니다. 내부 시스템 구성 요소에 의해 리소스가 생성되었고 생성 엔티티와 연관된 UUID가 없는 경우 * null * UUID가 사용됩니다.</block>
   <block id="6cb8b958a36383ed1b7bacc626d0a5dd" category="paragraph-title">리소스 상태입니다</block>
   <block id="b7aa38141b9dd3f7e78cd09e7f60ce0c" category="paragraph">선택한 자원 A<block ref="9ed39e2ea931586b6a985a6942ef573e" prefix=" " category="inline-code"></block> 수명 주기 전환을 조율하고 액세스를 제어하는 데 사용되는 값입니다.</block>
-  <block id="1045f2798351223896fdab281a8307eb" category="sidebar">Astra Control Automation 문서</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">개요</block>
@@ -1231,4 +1230,5 @@
   <block id="b99e07f4bea810f88b69ecfe1784ab28" category="sidebar">구름 목록을 표시합니다</block>
   <block id="b65e59022e022b723c1c1fbb73cd0092" category="sidebar">버킷 나열</block>
   <block id="157ecd713825d83c3595df6b4c0c11af" category="sidebar">참조 문서에 액세스합니다</block>
+  <block id="8f5acd94867d6ae4b479db02c3a9b834" category="sidebar">Astra Control Automation 23.04 문서</block>
 </blocks>
