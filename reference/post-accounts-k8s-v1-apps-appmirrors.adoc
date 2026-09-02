@@ -7,6 +7,7 @@ summary: 앱에 대한 새 AppMirror 리소스를 생성합니다
 ---
 = 앱에 대한 새 AppMirror 리소스를 생성합니다
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/k8s/v1/apps/{app_id}/appMirrors`#
@@ -15,6 +16,7 @@ summary: 앱에 대한 새 AppMirror 리소스를 생성합니다
 
 
 
+[[parameters]]
 == 매개변수
 
 [cols="5*"]
@@ -36,6 +38,7 @@ summary: 앱에 대한 새 AppMirror 리소스를 생성합니다
 |===
 
 
+[[request-body]]
 == 요청 본문
 
 생성할 AppMirror API 리소스에 대해 원하는 값을 나타냅니다.
@@ -128,6 +131,7 @@ summary: 앱에 대한 새 AppMirror 리소스를 생성합니다
 ====
 
 
+[[response]]
 == 응답
 
 [source]
@@ -447,6 +451,7 @@ Status: 201, Returns the newly created appMirror resource in the JSON response b
 ====
 
 
+[[response]]
 == 응답
 
 [source]
@@ -492,6 +497,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == 응답
 
 [source]
@@ -542,6 +548,7 @@ Status: 400, Bad request
 ====
 
 
+[[response]]
 == 응답
 
 [source]
@@ -587,6 +594,7 @@ Status: 409, Conflict
 ====
 
 
+[[response]]
 == 응답
 
 [source]
@@ -632,6 +640,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == 오류
 
 [source]
@@ -677,11 +686,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == 정의
 
 .정의를 참조하세요
 [%collapsible]
 ====
+[[namespaceMapping]]
 [role="api-collapsible-fifth-title"]
 namespaceMapping
 
@@ -707,6 +718,7 @@ namespaceMapping
 
 
 |===
+[[storageClasses]]
 [role="api-collapsible-fifth-title"]
 storageClasses
 
@@ -731,6 +743,7 @@ storageClasses
 
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 type_astra_label
 
@@ -746,6 +759,7 @@ type_astra_label
 | 값 | 문자열 | 참  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_메타데이터_업데이트
 
@@ -778,6 +792,7 @@ type_astra_메타데이터_업데이트
 | modifiedBy | 문자열 | 거짓  a| 
 
 |===
+[[type_astra_stateTransition]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateTransition
 
@@ -793,6 +808,7 @@ type_astra_stateTransition
 | ~ | 배열[string] | 참  a| 
 
 |===
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -812,6 +828,7 @@ type_astra_stateDetail
 | 세부 정보 | 문자열 | 참  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -829,6 +846,7 @@ invalidParams
 쿼리 매개변수가 유효하지 않은 이유
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 
