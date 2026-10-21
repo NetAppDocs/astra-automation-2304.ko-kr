@@ -35,7 +35,7 @@ sidebar:
   - title: API 참조입니다
     entries:
     - title: 개요
-      url: "/reference/astra_api_(acs)_overview.html"
+      url: "/reference/astra_api_acs_overview.html"
     - title: ASUP
       entries:
       - title: 개요
